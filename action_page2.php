@@ -2,9 +2,9 @@
 $email = $_POST['email'];
 $phone = $_POST['phone'];
 $host = 'localhost';
-$user = 'root';
-$pw = 'yj102938';
-$dbName = 'tnoter';
+$user = 'tnote';
+$pw = 'xlshxj99!';
+$dbName = 'tnote_godohosting_com';
 $date = date("F j, Y, g:i a");
 $conn = mysqli_connect($host, $user, $pw, $dbName) or die('Error connectin to MySQL server');
 

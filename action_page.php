@@ -8,9 +8,9 @@ $phone = $_POST['phone'];
 $password = $_POST['password'];
 $optradio = $_POST['optradio'];
 $host = 'localhost';
-$user = 'root';
-$pw = 'yj102938';
-$dbName = 'tnoter';
+$user = 'tnote';
+$pw = 'xlshxj99!';
+$dbName = 'tnote_godohosting_com';
 $date = date("F j, Y, g:i a");
 $conn = mysqli_connect($host, $user, $pw, $dbName) or die('Error connectin to MySQL server');
 
